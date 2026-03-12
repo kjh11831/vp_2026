@@ -39,5 +39,10 @@ namespace _003_temperature
 
             txtC.Text = c.ToString("0.0");
         }
+
+        private void txtF_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

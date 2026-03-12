@@ -74,6 +74,7 @@
             this.txtF.Size = new System.Drawing.Size(100, 27);
             this.txtF.TabIndex = 4;
             this.txtF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtF.TextChanged += new System.EventHandler(this.txtF_TextChanged);
             // 
             // btnF_C
             // 

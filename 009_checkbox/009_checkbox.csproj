@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5935E978-A7CA-46CD-BE74-3274F7D036BC}</ProjectGuid>
+    <ProjectGuid>{1C874FF3-15C3-450C-90C1-18784A73B544}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_003_temperature</RootNamespace>
-    <AssemblyName>003_temperature</AssemblyName>
+    <RootNamespace>_009_checkbox</RootNamespace>
+    <AssemblyName>009_checkbox</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="003_temperature.cs">
+    <Compile Include="009_checkbox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="003_temperature.Designer.cs">
-      <DependentUpon>003_temperature.cs</DependentUpon>
+    <Compile Include="009_checkbox.Designer.cs">
+      <DependentUpon>009_checkbox.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="003_temperature.resx">
-      <DependentUpon>003_temperature.cs</DependentUpon>
+    <EmbeddedResource Include="009_checkbox.resx">
+      <DependentUpon>009_checkbox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

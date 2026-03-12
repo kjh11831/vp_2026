@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5935E978-A7CA-46CD-BE74-3274F7D036BC}</ProjectGuid>
+    <ProjectGuid>{AE8CB560-2812-42C6-827E-B1274007C080}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_003_temperature</RootNamespace>
-    <AssemblyName>003_temperature</AssemblyName>
+    <RootNamespace>_005_login_window</RootNamespace>
+    <AssemblyName>005_login_window</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="003_temperature.cs">
+    <Compile Include="005_login_window.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="003_temperature.Designer.cs">
-      <DependentUpon>003_temperature.cs</DependentUpon>
+    <Compile Include="005_login_window.Designer.cs">
+      <DependentUpon>005_login_window.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="003_temperature.resx">
-      <DependentUpon>003_temperature.cs</DependentUpon>
+    <EmbeddedResource Include="005_login_window.resx">
+      <DependentUpon>005_login_window.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

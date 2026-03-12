@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5935E978-A7CA-46CD-BE74-3274F7D036BC}</ProjectGuid>
+    <ProjectGuid>{6A6C0E7C-FD65-4AC4-8BFC-8513FA65EBCF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_003_temperature</RootNamespace>
-    <AssemblyName>003_temperature</AssemblyName>
+    <RootNamespace>_006_basic_controls</RootNamespace>
+    <AssemblyName>006_basic_controls</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="003_temperature.cs">
+    <Compile Include="006_basic_controls.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="003_temperature.Designer.cs">
-      <DependentUpon>003_temperature.cs</DependentUpon>
+    <Compile Include="006_basic_controls.Designer.cs">
+      <DependentUpon>006_basic_controls.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="003_temperature.resx">
-      <DependentUpon>003_temperature.cs</DependentUpon>
+    <EmbeddedResource Include="006_basic_controls.resx">
+      <DependentUpon>006_basic_controls.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

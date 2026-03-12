@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5935E978-A7CA-46CD-BE74-3274F7D036BC}</ProjectGuid>
+    <ProjectGuid>{91E71097-32D4-4310-BA28-2FFF9C5E0430}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_003_temperature</RootNamespace>
-    <AssemblyName>003_temperature</AssemblyName>
+    <RootNamespace>_007_message_box</RootNamespace>
+    <AssemblyName>007_message_box</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,17 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="003_temperature.cs">
+    <Compile Include="007_message_box.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="003_temperature.Designer.cs">
-      <DependentUpon>003_temperature.cs</DependentUpon>
+    <Compile Include="007_message_box.Designer.cs">
+      <DependentUpon>007_message_box.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="003_temperature.resx">
-      <DependentUpon>003_temperature.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
