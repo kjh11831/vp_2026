@@ -41,9 +41,10 @@
             // 
             this.apple.AutoSize = true;
             this.apple.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.apple.Location = new System.Drawing.Point(44, 84);
+            this.apple.Location = new System.Drawing.Point(60, 118);
+            this.apple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.apple.Name = "apple";
-            this.apple.Size = new System.Drawing.Size(66, 27);
+            this.apple.Size = new System.Drawing.Size(88, 36);
             this.apple.TabIndex = 0;
             this.apple.Text = "사과";
             this.apple.UseVisualStyleBackColor = true;
@@ -52,9 +53,10 @@
             // 
             this.question_label.AutoSize = true;
             this.question_label.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.question_label.Location = new System.Drawing.Point(40, 36);
+            this.question_label.Location = new System.Drawing.Point(55, 50);
+            this.question_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.question_label.Name = "question_label";
-            this.question_label.Size = new System.Drawing.Size(310, 23);
+            this.question_label.Size = new System.Drawing.Size(435, 32);
             this.question_label.TabIndex = 1;
             this.question_label.Text = "질문: 좋아하는 과일을 모두 선택하세요";
             // 
@@ -62,9 +64,10 @@
             // 
             this.pear.AutoSize = true;
             this.pear.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.pear.Location = new System.Drawing.Point(44, 117);
+            this.pear.Location = new System.Drawing.Point(60, 164);
+            this.pear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pear.Name = "pear";
-            this.pear.Size = new System.Drawing.Size(49, 27);
+            this.pear.Size = new System.Drawing.Size(64, 36);
             this.pear.TabIndex = 2;
             this.pear.Text = "배";
             this.pear.UseVisualStyleBackColor = true;
@@ -73,9 +76,10 @@
             // 
             this.strawberry.AutoSize = true;
             this.strawberry.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.strawberry.Location = new System.Drawing.Point(44, 150);
+            this.strawberry.Location = new System.Drawing.Point(60, 210);
+            this.strawberry.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.strawberry.Name = "strawberry";
-            this.strawberry.Size = new System.Drawing.Size(66, 27);
+            this.strawberry.Size = new System.Drawing.Size(88, 36);
             this.strawberry.TabIndex = 3;
             this.strawberry.Text = "딸기";
             this.strawberry.UseVisualStyleBackColor = true;
@@ -84,9 +88,10 @@
             // 
             this.banana.AutoSize = true;
             this.banana.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.banana.Location = new System.Drawing.Point(44, 183);
+            this.banana.Location = new System.Drawing.Point(60, 256);
+            this.banana.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.banana.Name = "banana";
-            this.banana.Size = new System.Drawing.Size(83, 27);
+            this.banana.Size = new System.Drawing.Size(112, 36);
             this.banana.TabIndex = 4;
             this.banana.Text = "바나나";
             this.banana.UseVisualStyleBackColor = true;
@@ -95,9 +100,10 @@
             // 
             this.orange.AutoSize = true;
             this.orange.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.orange.Location = new System.Drawing.Point(44, 216);
+            this.orange.Location = new System.Drawing.Point(60, 302);
+            this.orange.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.orange.Name = "orange";
-            this.orange.Size = new System.Drawing.Size(83, 27);
+            this.orange.Size = new System.Drawing.Size(112, 36);
             this.orange.TabIndex = 5;
             this.orange.Text = "오렌지";
             this.orange.UseVisualStyleBackColor = true;
@@ -111,9 +117,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(255, 250);
+            this.button1.Location = new System.Drawing.Point(351, 350);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 37);
+            this.button1.Size = new System.Drawing.Size(131, 52);
             this.button1.TabIndex = 22;
             this.button1.Text = "제출";
             this.button1.UseVisualStyleBackColor = false;
@@ -121,10 +128,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(386, 318);
+            this.ClientSize = new System.Drawing.Size(531, 445);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.orange);
             this.Controls.Add(this.banana);
@@ -132,8 +139,10 @@
             this.Controls.Add(this.pear);
             this.Controls.Add(this.question_label);
             this.Controls.Add(this.apple);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "CheckBox";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

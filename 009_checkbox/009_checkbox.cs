@@ -42,5 +42,10 @@ namespace _009_checkbox
 
             MessageBox.Show(summary, "summary");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
