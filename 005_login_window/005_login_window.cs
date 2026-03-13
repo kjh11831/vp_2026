@@ -17,16 +17,16 @@ namespace _005_login_window
             InitializeComponent();
         }
 
-        private void bmi_button_Click(object sender, EventArgs e)
+        private void login_button_Click(object sender, EventArgs e)
         {
-            if (id_text.Text == "abcd" && password_text.Text == "1234")
+            if (id_textbox.Text.Trim() == "abcd" && password_textbox.Text.Trim() == "1234")
             {
-                result_text.Text = "로그인 성공";
+                result_textbox.Text = "로그인 성공";
             }
 
             else
             {
-                result_text.Text = "로그인 실패";
+                result_textbox.Text = "로그인 실패";
             }
         }
     }

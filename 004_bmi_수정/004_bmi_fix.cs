@@ -17,11 +17,11 @@ namespace _004_bmi_수정
             InitializeComponent();
         }
 
-        //button1을 클릭했을 때 실행되는 이벤트 처리 함수
+        //bmi_button을 클릭했을 때 실행되는 이벤트 처리 함수
         private void bmi_button_Click(object sender, EventArgs e)
         {
-            double h = double.Parse(H_text.Text);
-            double w = double.Parse(W_text.Text);
+            double h = double.Parse(H_textbox.Text);
+            double w = double.Parse(W_textbox.Text);
 
             h /= 100; // m 단위 환산
             double bmi = w / (h * h);

@@ -42,9 +42,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(43, 38);
+            this.button1.Location = new System.Drawing.Point(59, 53);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(217, 37);
+            this.button1.Size = new System.Drawing.Size(298, 52);
             this.button1.TabIndex = 21;
             this.button1.Text = "라파엘로, 아테네 학당";
             this.button1.UseVisualStyleBackColor = false;
@@ -54,28 +55,31 @@
             // 
             this.m.AutoSize = true;
             this.m.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.m.Location = new System.Drawing.Point(39, 94);
+            this.m.Location = new System.Drawing.Point(54, 132);
+            this.m.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.m.Name = "m";
-            this.m.Size = new System.Drawing.Size(0, 23);
+            this.m.Size = new System.Drawing.Size(0, 32);
             this.m.TabIndex = 22;
             // 
             // l
             // 
             this.l.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.l.Location = new System.Drawing.Point(39, 138);
+            this.l.Location = new System.Drawing.Point(54, 193);
+            this.l.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.l.Name = "l";
-            this.l.Size = new System.Drawing.Size(721, 231);
+            this.l.Size = new System.Drawing.Size(991, 323);
             this.l.TabIndex = 23;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(800, 408);
+            this.ClientSize = new System.Drawing.Size(1100, 571);
             this.Controls.Add(this.l);
             this.Controls.Add(this.m);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Label Control";
             this.ResumeLayout(false);
