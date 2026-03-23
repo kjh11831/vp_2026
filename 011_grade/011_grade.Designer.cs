@@ -142,7 +142,7 @@
             this.calculate_button.TabIndex = 17;
             this.calculate_button.Text = "계산";
             this.calculate_button.UseVisualStyleBackColor = false;
-            this.calculate_button.Click += new System.EventHandler(this.login_button_Click);
+            this.calculate_button.Click += new System.EventHandler(this.calculate_button_Click);
             // 
             // result_groupbox
             // 
