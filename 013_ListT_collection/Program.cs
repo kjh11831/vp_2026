@@ -21,11 +21,24 @@ namespace ListT_collection
             for (int i = 0; i < 10; i++)
                 a.Add(r.Next(100));
 
+            // 정렬하기 전, PrintValues() 메서드를 호출하여 a에 저장된 값을 출력한다.
+            // Count 속성의 값은 10, Capacity 속성의 값은 16으로 출력된다.
             PrintValues(a);
+
+            // a의 값을 정렬하고 PrintValues() 메서드를 호출하여 a에 저장된 값을 출력한다.
             a.Sort();
+            PrintValues(a);
+
+            // 3번 인덱스의 값을 제거하고 PrintValues() 메서드를 호출하여 a에 저장된 값을 출력한다.
+            // Count = 9가 되고 3번 인덱스의 값이 제거된 것을 확인할 수 있다.
+            // Capacity 속성의 값은 변화가 없다.
+            a.RemoveAt(3);
             PrintValues(a);
         }
 
+        // List<int>의 요소들을 출력하는 메소드
+        // Count와 Capacity 속성의 값을 출력한다.
+        // foreach문을 사용하여 a의 각 요소들을 출력한다.
         private static void PrintValues(List<int> a)
         {
             Console.WriteLine("Print Values in List<int>");
