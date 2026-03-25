@@ -1,4 +1,4 @@
-﻿namespace _012_credit_calculator
+﻿namespace _014_credit_calculator
 {
     partial class Form1
     {
@@ -82,7 +82,7 @@
             this.average_credit_button.TabIndex = 25;
             this.average_credit_button.Text = "평균평점";
             this.average_credit_button.UseVisualStyleBackColor = false;
-            this.average_credit_button.Click += new System.EventHandler(this.average_credit_button_Click_1);
+            this.average_credit_button.Click += new System.EventHandler(this.average_credit_button_Click);
             // 
             // subject_label
             // 
@@ -366,7 +366,7 @@
             this.Controls.Add(this.average_credit_button);
             this.Controls.Add(this.subject_label);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "학점계산기";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

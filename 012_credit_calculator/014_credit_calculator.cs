@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Drawing.Text;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _012_credit_calculator
+namespace _014_credit_calculator
 {
     public partial class Form1 : Form
     {
@@ -76,7 +74,7 @@ namespace _012_credit_calculator
         }
 
         // [평균평점] 버튼 클릭 시 실행되는 계산 로직
-        private void average_credit_button_Click_1(object sender, EventArgs e)
+        private void average_credit_button_Click(object sender, EventArgs e)
         {
             double totalGradePoint = 0; // (각 과목 학점 * 성적 점수)의 총합
             int totalCreditCount = 0;   // 사용자가 입력한 총 학점 수
