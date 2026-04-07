@@ -1,4 +1,4 @@
-﻿namespace _023_class_calculator
+﻿namespace _024_class_calculator
 {
     class Calculator
     {
