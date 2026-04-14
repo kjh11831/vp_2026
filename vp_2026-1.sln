@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "029_property", "029_propert
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "030_digital_clock", "030_digital_clock\030_digital_clock.csproj", "{34C93A35-AFFF-4AB6-9B73-3E414BED428A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "031_firebase", "031_firebase\031_firebase.csproj", "{538B02B5-85DF-4BF3-9743-A79819AE351B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -433,6 +435,18 @@ Global
 		{34C93A35-AFFF-4AB6-9B73-3E414BED428A}.Release|x64.Build.0 = Release|Any CPU
 		{34C93A35-AFFF-4AB6-9B73-3E414BED428A}.Release|x86.ActiveCfg = Release|Any CPU
 		{34C93A35-AFFF-4AB6-9B73-3E414BED428A}.Release|x86.Build.0 = Release|Any CPU
+		{538B02B5-85DF-4BF3-9743-A79819AE351B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538B02B5-85DF-4BF3-9743-A79819AE351B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538B02B5-85DF-4BF3-9743-A79819AE351B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{538B02B5-85DF-4BF3-9743-A79819AE351B}.Debug|x64.Build.0 = Debug|Any CPU
+		{538B02B5-85DF-4BF3-9743-A79819AE351B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{538B02B5-85DF-4BF3-9743-A79819AE351B}.Debug|x86.Build.0 = Debug|Any CPU
+		{538B02B5-85DF-4BF3-9743-A79819AE351B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538B02B5-85DF-4BF3-9743-A79819AE351B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538B02B5-85DF-4BF3-9743-A79819AE351B}.Release|x64.ActiveCfg = Release|Any CPU
+		{538B02B5-85DF-4BF3-9743-A79819AE351B}.Release|x64.Build.0 = Release|Any CPU
+		{538B02B5-85DF-4BF3-9743-A79819AE351B}.Release|x86.ActiveCfg = Release|Any CPU
+		{538B02B5-85DF-4BF3-9743-A79819AE351B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
