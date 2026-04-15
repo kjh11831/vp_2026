@@ -75,6 +75,7 @@
     <Compile Include="031_firebase.Designer.cs">
       <DependentUpon>031_firebase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Data.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="031_firebase.resx">
