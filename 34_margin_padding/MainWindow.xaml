@@ -1,0 +1,27 @@
+﻿<Window x:Class="_34_margin_padding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_34_margin_padding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--<Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>-->
+
+        <Button Grid.Row="0" Margin="20 10 20 10">Click me! 1</Button>
+        <Button Grid.Row="1" Margin="20 10 20 10">Click me! 2</Button>
+        <Button Grid.Row="2" Margin="20 10 20 10">Click me! 3</Button>
+
+    </Grid>
+</Window>
